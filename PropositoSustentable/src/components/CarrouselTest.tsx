@@ -15,7 +15,7 @@ const Carrousel = () => {
             <article className='carrousel-button'>
                <Link to="/aboutUs">
                <button className='carrousel-button-1'>Conócenos</button>
-               </Link>
+               </Link>  
               
                   
                

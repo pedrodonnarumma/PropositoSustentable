@@ -26,10 +26,15 @@ header {
     padding-right: 80px;
     gap:100px;
     font-size: 20px;
+    padding-top: 50px;
 
 }
 
 b:hover{
     color: #6D9898;
 
+}
+
+.header-names{
+    font-size: 22px;
 }

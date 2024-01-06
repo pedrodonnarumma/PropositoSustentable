@@ -14,19 +14,19 @@ const Header = () => {
 
        <section className="header-actions">
           <Link to="/" style={{ color: 'black' }}>
-             <b>Inicio</b>
+             <b className='header-names'>Inicio</b>
           </Link>
 
           <Link to="/aboutUs" style={{ color: 'black' }}>
-            <b>¿Quienes somos?</b>
+            <b className='header-names'>¿Quienes somos?</b>
           </Link>
           
           <Link to="/services" style={{ color: 'black' }}>
-            <b>Servicios</b>
+            <b className='header-names'>Servicios</b>
           </Link>
           
           <Link to="/contact" style={{ color: 'black' }}>
-            <b>Contacto</b>
+            <b className='header-names'>Contacto</b>
           </Link>
          
 

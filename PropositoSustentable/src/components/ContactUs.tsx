@@ -4,6 +4,7 @@ const ContactUs = () => {
   return (
     <div>
        <section className='main-section'>
+        
         <h3>Trabajemos juntos</h3>
     
     <form className="formulario">
@@ -18,7 +19,7 @@ const ContactUs = () => {
             
     </form>     
     </section>
-    
+
     </div>
   )
 }
