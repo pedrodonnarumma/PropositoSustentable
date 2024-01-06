@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Bogue';
+    src: url('../fonts/bogue-regular_regular-webfont.woff') format('woff'), /* Ruta a tu archivo WOFF */
+         url('../fonts/bogue-regular_regular-webfont.woff2') format('woff2'); /* Ruta a tu archivo WOFF2 */
+    /* Otros formatos si los tienes */
+    /* Otras propiedades (puede incluir estilo, peso, etc.) */
+  }
+  
+  h2 {
+    font-family: "Bogue", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 70px;
+  
+  
+  }
+
+  p{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+
+  .section-1{
+    
+        padding-top: 200px;
+  
+  }
+
+  section{
+    padding-bottom: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    ;
+
+  }
+
+ 
+ .button-about-us{
+background-color: #9FD6D6;
+height: 60px;
+width: 278px;
+border-radius: 23px;
+transition: transform 0.3s;
+text-align: center;
+padding: 10px;
+font-size: 32px;
+ }
+ .button-about-us:hover {
+    background-color: #6D9898;
+    border: none;
+    transform: scale(1.1);
+   
+}
+.button-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

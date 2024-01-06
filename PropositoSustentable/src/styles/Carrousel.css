@@ -1,0 +1,69 @@
+.main-container{
+    padding-top: 0px;
+    padding-left: 100px;
+   
+}
+
+
+.impacto{
+  
+  font-size: 100px;
+  
+  justify-content:left;
+  display: flex;
+  line-height: 1.1;
+  
+  font-weight: 470;
+  padding-bottom: 40px;
+}
+
+.plus{
+    color: #9FD6D6;
+}
+
+.carrousel-button-1{
+
+background-color: #9FD6D6;
+height: 60px;
+width: 278px;
+border-radius: 23px;
+transition: transform 0.3s;
+text-align: center;
+padding: 10px;
+font-size: 32px;
+
+
+}
+
+.carrousel-button-1:hover {
+    background-color: #6D9898;
+    border: none;
+    transform: scale(1.1);
+   
+}
+
+
+
+.frase-1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+    padding: 20px;
+    color: #6D9898;
+    font-weight: 470;
+    font-size: 38px;
+    text-align: center;
+    height: 90px;
+    width:900px;
+}
+
+.section-b{
+    padding-top: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 470;
+}
+

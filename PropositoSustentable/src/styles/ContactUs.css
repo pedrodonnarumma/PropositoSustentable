@@ -1,0 +1,19 @@
+form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    text-align: center;
+
+}
+
+.main-section{
+   display: block;
+   text-align: center;
+   
+}
+
+h3{
+    margin-bottom: 20px;
+    font-size: 32px;
+}

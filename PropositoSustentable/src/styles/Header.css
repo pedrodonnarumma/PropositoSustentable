@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FCFEFF; /* Cambia el color de fondo según tus preferencias */
+    padding: 0px; /* Añade relleno para separar el contenido del borde */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 112px;
+  }
+
+.img-logo-header{
+  
+   scale: 0.2;
+
+}
+
+
+
+
+
+.header-actions{
+    display:flex;
+    padding-right: 80px;
+    gap:100px;
+    font-size: 20px;
+
+}
+
+b:hover{
+    color: #6D9898;
+
+}
