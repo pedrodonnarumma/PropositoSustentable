@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <header>
    
-            <Link to="/">
-              <img src={Logo} className='img-logo-header' alt="Logo"/>
+            <Link to="/" style={{ display: 'inline-block', width: '220px', height: 'auto' ,position: 'relative', left: '200px'}}>
+              <img src={Logo} className='img-logo-header' alt="Logo" style={{ display: 'inline-block' }}/>
             </Link>
      
 

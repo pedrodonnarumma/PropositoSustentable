@@ -1,30 +1,69 @@
-.foto-1{
-    border-radius: 50%;
+.title{
+    margin-top: 200px;
+    justify-content: center;
+    text-align: center;
 }
+
+h3{
+    font-size: 30px;
+}
+
+
+
+
 
 .perfiles{
     display:flex;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 60px;
+   align-items: center;
+    
 }
 
 .perfil-1{
+    
     text-align: center;
+    
 }
 
-.title{
-    margin-top: 120px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.logo-linkedin{
+    height: 35px;
 }
+
+.foto-1{
+    border-radius: 50%;
+}
+
 
 b{
     font-size: 30px;
 }
 
-.mision-vision{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+
+
+h2{
+    font-family: "Bogue", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    
 }
+
+
+.mision-vision{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    text-align: center;
+    gap: 180px;
+    align-items: first baseline;
+    margin-top: 30px;
+ }
+
+ .mision{
+   
+    max-width: 500px; /* Establece el ancho máximo de los divs */
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+
+ }

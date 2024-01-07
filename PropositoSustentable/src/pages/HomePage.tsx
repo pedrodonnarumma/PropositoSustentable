@@ -21,10 +21,10 @@ const HomePage : React.FC = () => {
       </section>
       <section id="quienes-somos" >
         {/* Contenido de la sección de contacto */}
-        <h2>¿Quienes somos?</h2>
+        <h2 className='h2-home'>¿Quienes somos?</h2>
         {/* Formulario de contacto u otra información */}
       
-        <p>Detalles de contacto...
+        <p className='parrafo-home'>Detalles de contacto...
         Detalles de contacto...
        
         
@@ -38,10 +38,10 @@ const HomePage : React.FC = () => {
       </section>
       <section id="servicios" >
         {/* Contenido de la sección de contacto */}
-        <h2>Nuestros servicios</h2>
+        <h2 className='h2-home'>Nuestros servicios</h2>
         {/* Formulario de contacto u otra información */}
       
-        <p>Detalles de contacto...
+        <p className='parrafo-home'>Detalles de contacto...
         Detalles de contacto...
         Detalles de contacto...
         Detalles de contacto...
@@ -64,7 +64,7 @@ const HomePage : React.FC = () => {
       </section>
       <section id="contacto">
         {/* Contenido de la sección de contacto */}
-        <h2>Contacto</h2>
+        <h2 className='h2-home'>Contacto</h2>
         {/* Formulario de contacto u otra información */}
       
       <ContactUs/>

@@ -11,9 +11,16 @@ header {
     height: 112px;
   }
 
+
+
+
+
 .img-logo-header{
   
-   scale: 0.2;
+    
+    width: 100%; /* Asegura que la imagen ocupe el 100% del contenedor */
+    height: auto; /* Mantén la proporción de la imagen */
+   
 
 }
 
@@ -30,7 +37,7 @@ header {
 
 }
 
-b:hover{
+.header-names:hover{
     color: #6D9898;
 
 }

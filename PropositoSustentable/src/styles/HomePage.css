@@ -6,7 +6,7 @@
     /* Otras propiedades (puede incluir estilo, peso, etc.) */
   }
   
-  h2 {
+  .h2-home{
     font-family: "Bogue", sans-serif;
     font-size: 60px;
     text-align: center;
@@ -15,7 +15,7 @@
   
   }
 
-  p{
+  .parrafo-home{
     text-align: center;
     font-size: 32px;
     margin-bottom: 50px;
@@ -23,8 +23,8 @@
 
   .section-1{
     
-        padding-top: 200px;
-  
+    padding-top: 200px;
+        height: 90vh;
   }
 
   section{
@@ -32,7 +32,7 @@
     display: block;
     justify-content: center;
     align-items: center;
-    ;
+    
 
   }
 
