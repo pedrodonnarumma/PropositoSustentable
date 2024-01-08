@@ -11,6 +11,7 @@ const Services : React.FC = () => {
       >
        <h1>Servicios</h1>
        <p>Poner tarjetas</p>
+     
       </motion.div>
     )
   }

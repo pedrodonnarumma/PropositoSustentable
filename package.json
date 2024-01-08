@@ -2,6 +2,7 @@
   "dependencies": {
     "@mantine/carousel": "^7.3.2",
     "embla-carousel-react": "^7.1.0",
+    "flowbite-react": "^0.7.2",
     "framer-motion": "^10.16.16",
     "react-multi-carousel": "^2.8.4",
     "react-router-dom": "^6.21.1"

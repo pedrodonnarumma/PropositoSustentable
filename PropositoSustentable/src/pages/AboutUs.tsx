@@ -47,13 +47,7 @@ const AboutUs : React.FC = () => {
 para que sean agentes de cambio, catalizando la
 transformación hacia prácticas sustentables y
 generando valor a largo plazo para su negocio, sus
-stakeholders y el planeta. Nos
-comprometemos a guiar a nuestros
-clientes en el camino hacia la excelencia
-sustentable, ayudándoles a identificar
-oportunidades, establecer metas
-ambiciosas y adoptar prácticas éticas y
-responsables.</p>
+stakeholders y el planeta. </p>
         </article>
 
        <article className='mision'>
@@ -70,7 +64,19 @@ del ambiente se entrelacen de
 manera armoniosa.</p>
        </article>
 
+     
       </section>
+
+      <article className='frase-final'>
+        
+        
+        <p>"Nos comprometemos a guiar a nuestros clientes en el camino hacia la excelencia sustentable, ayudándoles a identificar oportunidades, 
+          establecer metas ambiciosas y
+           adoptar prácticas éticas y responsables"</p>
+      
+
+     </article>
+
     </motion.div>
   )
 }

@@ -1,0 +1,25 @@
+footer{
+    background-color:#00a5ac;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo{
+    height: 100px;
+   
+   
+}
+
+.info-container{
+    font-size: 25px;
+}
