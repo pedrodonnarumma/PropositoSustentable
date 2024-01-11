@@ -1,22 +1,50 @@
-import { Card } from 'flowbite-react';
-import Foto from '../assets/images/PS_RECORTADO.jpg'
+import { Component } from 'react';
+import '../styles/Tarjeta.css'
+
  
 
-const Tarjeta = () => {
-  return (
-    <Card
-    className="max-w-sm"
-    imgAlt="Meaningful alt text for an image that is not purely decorative"
-    imgSrc={Foto}
-  >
-    <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      Noteworthy technology acquisitions 2021
-    </h5>
-    <p className="font-normal text-gray-700 dark:text-gray-400">
-      Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-    </p>
-  </Card>
-  )
+interface MiComponenteProps {
+  nombre: string;
+  descripcion: string;
 }
 
-export default Tarjeta
+interface MiComponenteState {
+  nombre: string;
+  descripcion: string;
+}
+
+class MiComponente extends Component<MiComponenteProps, MiComponenteState> {
+  constructor(props: MiComponenteProps) {
+    super(props);
+    
+    this.state = {
+      nombre: props.nombre,
+      descripcion: props.descripcion
+    };
+  }
+
+
+
+  render() {
+    return (
+      <div className='tarjeta'>
+        <div className='texto-tarjeta'>
+            <h1 className='titulo'>{this.state.nombre}</h1>
+            <p className='descripcion'>{this.state.descripcion}</p>
+            <button className='boton'>Ver más</button>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default MiComponente;
+
+
+
+
+
+
+
+
+

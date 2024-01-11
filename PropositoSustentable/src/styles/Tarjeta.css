@@ -1,0 +1,46 @@
+.tarjeta{
+    background-color: #35b3b7;
+    border-style: double;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex; /* Utiliza flexbox para centrar verticalmente e horizontalmente */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    transition: transform 0.3s;
+}
+
+.tarjeta h1{
+    color: #074a4a;
+    font-size: 30px;
+}
+
+.tarjeta p{
+    font-size: 32px;
+  
+}
+
+.tarjeta h1, .tarjeta p, .tarjeta button {
+    margin: 10px; /* Espaciado entre los elementos internos */
+  }
+
+.texto-tarjeta{
+    text-align: center;
+    
+}
+
+button{
+    margin-top: 30px;
+}
+
+.tarjeta:hover{
+    transform: scale(1.1);
+    background-color: #36d6db;
+}
+
+button:hover{
+    background-color: rgb(19, 6, 6);
+    color: ivory;
+}

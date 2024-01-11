@@ -1,0 +1,43 @@
+.Services body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que la sección tarjetas esté centrada verticalmente en la pantalla */
+    width: 100vh;
+  }
+
+
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap; /* Hace que las tarjetas se envuelvan a la siguiente línea cuando llenan el ancho del contenedor */
+    justify-content: space-around;
+    gap: 80px;
+    margin-top: 80px;
+   
+   
+}
+
+.title{
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.subtitulo{
+    padding: 20px;
+    color: #6D9898;
+    font-weight: 470;
+    font-size: 38px;
+    text-align: center;
+    height: 90px;
+   
+
+}
+
+
+header {
+    z-index: 3; /* Asegura que el header esté en la parte superior */
+  }
